@@ -454,6 +454,48 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#other-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delta-g_u-electrode-potential" class="md-nav__link">
+    <span class="md-ellipsis">
+      \(\Delta G_U\): Electrode Potential
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delta-g_textph-ph-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      \(\Delta G_{\text{pH}}\): pH Effect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropy-s-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entropy (\(S\)) Calculation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#free-energy-diagram" class="md-nav__link">
     <span class="md-ellipsis">
       Free Energy Diagram
@@ -592,6 +634,48 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#other-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delta-g_u-electrode-potential" class="md-nav__link">
+    <span class="md-ellipsis">
+      \(\Delta G_U\): Electrode Potential
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delta-g_textph-ph-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      \(\Delta G_{\text{pH}}\): pH Effect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropy-s-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entropy (\(S\)) Calculation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#free-energy-diagram" class="md-nav__link">
     <span class="md-ellipsis">
       Free Energy Diagram
@@ -700,6 +784,29 @@
 <li>*HOOH → H₂O₂(l) + *:
    <span class="arithmatex">\(\Delta G_4 = G(*) + G(\text{H}_2\text{O}_2\text{(l)}) - G(*\text{HOOH})\)</span></li>
 </ol>
+<h3 id="other-considerations"><strong>Other Considerations</strong><a class="headerlink" href="#other-considerations" title="Permanent link">&para;</a></h3>
+<h4 id="delta-g_u-electrode-potential"><strong><span class="arithmatex">\(\Delta G_U\)</span>: Electrode Potential</strong><a class="headerlink" href="#delta-g_u-electrode-potential" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(\Delta G_U = -n \times e \times U\)</span></p>
+<ul>
+<li><span class="arithmatex">\(n\)</span>: Number of electrons (1 per proton-electron step).</li>
+<li><span class="arithmatex">\(U\)</span>: Electrode potential (V vs. SHE).</li>
+</ul>
+<p>Set <span class="arithmatex">\(U = 0\)</span> V for baseline; adjust as needed.</p>
+<h4 id="delta-g_textph-ph-effect"><strong><span class="arithmatex">\(\Delta G_{\text{pH}}\)</span>: pH Effect</strong><a class="headerlink" href="#delta-g_textph-ph-effect" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(\Delta G_{\text{pH}} = 0.0592 \times \text{pH} \, \text{(eV)}\)</span></p>
+<ul>
+<li>pH = 0 (acidic): <span class="arithmatex">\(\Delta G_{\text{pH}} = 0\)</span>.</li>
+<li>Adjust for other pH values (e.g., pH = 7 → 0.414 eV).</li>
+</ul>
+<h4 id="entropy-s-calculation"><strong>Entropy (<span class="arithmatex">\(S\)</span>) Calculation</strong><a class="headerlink" href="#entropy-s-calculation" title="Permanent link">&para;</a></h4>
+<p>If you calculate <span class="arithmatex">\(ΔG\)</span> using Gaussian, the <span class="arithmatex">\(G\)</span> can be obtained directly. Otherwise, you might need to calculate <span class="arithmatex">\(ΔG\)</span> with <span class="arithmatex">\(ΔS\)</span>.</p>
+<ul>
+<li><strong>Adsorbed Species</strong>: From frequency analysis (e.g., VASP):</li>
+<li>Vibrational factor: <span class="arithmatex">\(x_i = \frac{100 \times c \times h \times \nu_i}{k_B \times T}\)</span>.</li>
+<li>Partition function: <span class="arithmatex">\(p f_i = \frac{x_i}{e^{x_i} - 1} - \log(1 - e^{-x_i})\)</span>.</li>
+<li>Total entropy: <span class="arithmatex">\(S = \frac{R \times \sum p f_i}{1000 \times 96.485}\)</span> (eV/K).</li>
+<li><strong>Gas Phase (O₂, H₂, H₂O₂)</strong>: Use Gaussian 16 (6-311G* basis) to calculate vibrational, rotational, and translational contributions.</li>
+</ul>
 <h3 id="free-energy-diagram"><strong>Free Energy Diagram</strong><a class="headerlink" href="#free-energy-diagram" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Reference: O₂(g) + * = 0 eV.</li>
@@ -711,12 +818,11 @@
 <li><strong>O₂(g) Correction</strong>: DFT underestimates O₂(g) stability. Use:$$
   G(\text{O}_2\text{(g)}) = 2G(\text{H}_2\text{O}) - 2G(\text{H}_2) + 4.92 \, \text{eV}
   $$</li>
-<li><strong>H₂O₂(l) Adjustment</strong>: Convert $ G(\text{H}_2\text{O}_2\text{(g)}) $ to liquid phase:$$
-  G(\text{H}_2\text{O}_2\text{(l)}) = G(\text{H}_2\text{O}_2\text{(g)}) - 0.28 \, \text{eV}
-  $$</li>
+<li><strong>H₂O₂(l) Adjustment</strong>: Convert $G(\text{H}_2\text{O}_2\text{(g)}) $ to liquid phase:
+  <span class="arithmatex">\(G(\text{H}_2\text{O}_2\text{(l)}) = G(\text{H}_2\text{O}_2\text{(g)}) - 0.28 \, \text{eV}\)</span></li>
 <li><strong>Adsorption Sites</strong>: Optimize *O₂, *OOH, *HOOH configurations for stability.</li>
 <li><strong>Consistency</strong>: Use identical DFT settings for all species.</li>
-<li><strong>Entropy &amp; ZPE</strong>: Include these corrections from frequency calculations.</li>
+<li><strong>Corrections</strong>: Include ZPE, entropy, $ \Delta G_U $, and $ \Delta G_{\text{pH}} $ if needed.</li>
 </ul>
 <hr />
 <h2 id="summary"><strong>Summary</strong><a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
