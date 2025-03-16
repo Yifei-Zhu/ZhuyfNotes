@@ -1,5 +1,5 @@
 site_name: ZhuyfWiki
-site_url: https://ZhuYifei.github.io/
+site_url: https://yifei-zhu.github.io/ZhuYifei.github.io/
 repo_name: ZhuyfWiki
 repo_url: https://github.com/Yifei-Zhu/ZhuYifei.github.io.git
 extra:
@@ -114,6 +114,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.details
 
 extra_javascript:
   - javascripts/analytic.js
