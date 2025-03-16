@@ -10,9 +10,13 @@
         <meta name="author" content="Yifei Zhu">
       
       
-        <link rel="canonical" href="https://ZhuYifei.github.io/wiki/qm_cal/free_e_reaction_coords_diagram.html">
+        <link rel="canonical" href="https://ZhuYifei.github.io/wiki/qm_cal/gibbs_ORR.html">
       
       
+        <link rel="prev" href="../../index.html">
+      
+      
+        <link rel="next" href="../tags.html">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +24,7 @@
     
     
       
-        <title>How to start - ZhuyfWiki</title>
+        <title>Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction - ZhuyfWiki</title>
       
     
     
@@ -65,7 +69,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="black">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gibbs" class="md-skip">
+        <a href="#reaction-pathway" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to start
+              Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction
             
           </span>
         </div>
@@ -123,7 +127,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="black"  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="blue"  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="切换至深色模式" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -133,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="切换至浅色模式" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -277,10 +281,14 @@
       
   
   
+    
   
   
+  
     
     
+      
+        
       
         
       
@@ -292,11 +300,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -310,7 +318,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Wikis
@@ -321,14 +329,191 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../QM software" class="md-nav__link">
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    QM software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            QM software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="gibbs_ORR.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    None
+    Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reaction-pathway" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reaction Pathway
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculating ΔG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculating ΔG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Formula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step ΔG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#free-energy-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Energy Diagram
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-points-to-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Points to Note
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags Quick Index
   </span>
   
 
@@ -362,8 +547,83 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reaction-pathway" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reaction Pathway
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculating ΔG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculating ΔG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Formula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step ΔG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#free-energy-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Energy Diagram
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-points-to-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Points to Note
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -404,7 +664,63 @@
   
 
 
-<h1 id="gibbs">Gibbs<a class="headerlink" href="#gibbs" title="Permanent link">&para;</a></h1>
+  <h1>Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction</h1>
+
+<p>This wiki provides a concise guide on calculating the Gibbs free energy (ΔG) for the reaction where O₂ is reduced to H₂O₂ via a 2-electron oxygen reduction reaction (ORR) pathway on a catalyst surface (*). The process is key to understanding catalyst efficiency in producing H₂O₂.</p>
+<hr />
+<h2 id="reaction-pathway"><strong>Reaction Pathway</strong><a class="headerlink" href="#reaction-pathway" title="Permanent link">&para;</a></h2>
+<p>The ORR pathway involves these steps:</p>
+<ol>
+<li>O₂(g) → *O₂: O₂ adsorbs onto the catalyst.</li>
+<li>*O₂ + H⁺ + e⁻ → *OOH: Proton-electron transfer forms *OOH.</li>
+<li>*OOH + H⁺ + e⁻ → *HOOH: Another transfer forms *HOOH (adsorbed H₂O₂).</li>
+<li>*HOOH → H₂O₂(l) + *: H₂O₂ desorbs into liquid phase.</li>
+</ol>
+<hr />
+<h2 id="calculating-g"><strong>Calculating ΔG</strong><a class="headerlink" href="#calculating-g" title="Permanent link">&para;</a></h2>
+<h3 id="general-formula"><strong>General Formula</strong><a class="headerlink" href="#general-formula" title="Permanent link">&para;</a></h3>
+<p>For each step:</p>
+<div class="arithmatex">\[
+\Delta G = \Delta E + \Delta \text{ZPE} - T \times \Delta S
+\]</div>
+<ul>
+<li><strong>ΔE</strong>: Electronic energy change (from DFT).</li>
+<li><strong>ΔZPE</strong>: Zero-point energy change.</li>
+<li><strong>T × ΔS</strong>: Entropy contribution (T = 298.15 K).</li>
+</ul>
+<p>Proton-electron steps use the computational hydrogen electrode (CHE) model: <span class="arithmatex">\(G(\text{H}^+ + \text{e}^-) = \frac{1}{2} G(\text{H}_2)\)</span> at U = 0 V, pH = 0.</p>
+<h3 id="step-by-step-g"><strong>Step-by-Step ΔG</strong><a class="headerlink" href="#step-by-step-g" title="Permanent link">&para;</a></h3>
+<ol>
+<li>O₂(g) → *O₂:
+   <span class="arithmatex">\(\Delta G_1 = G(*\text{O}_2) - G(*) - G(\text{O}_2\text{(g)})\)</span></li>
+<li>*O₂ + H⁺ + e⁻ → *OOH:
+   <span class="arithmatex">\(\Delta G_2 = G(*\text{OOH}) - G(*\text{O}_2) - \frac{1}{2} G(\text{H}_2)\)</span></li>
+<li>*OOH + H⁺ + e⁻ → *HOOH:
+   <span class="arithmatex">\(\Delta G_3 = G(*\text{HOOH}) - G(*\text{OOH}) - \frac{1}{2} G(\text{H}_2)\)</span></li>
+<li>*HOOH → H₂O₂(l) + *:
+   <span class="arithmatex">\(\Delta G_4 = G(*) + G(\text{H}_2\text{O}_2\text{(l)}) - G(*\text{HOOH})\)</span></li>
+</ol>
+<h3 id="free-energy-diagram"><strong>Free Energy Diagram</strong><a class="headerlink" href="#free-energy-diagram" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reference: O₂(g) + * = 0 eV.</li>
+<li>Plot: *O₂ (ΔG₁), *OOH (ΔG₁ + ΔG₂), *HOOH (ΔG₁ + ΔG₂ + ΔG₃), H₂O₂(l) + * (ΔG₁ + ΔG₂ + ΔG₃ + ΔG₄).</li>
+</ul>
+<hr />
+<h2 id="key-points-to-note"><strong>Key Points to Note</strong><a class="headerlink" href="#key-points-to-note" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>O₂(g) Correction</strong>: DFT underestimates O₂(g) stability. Use:$$
+  G(\text{O}_2\text{(g)}) = 2G(\text{H}_2\text{O}) - 2G(\text{H}_2) + 4.92 \, \text{eV}
+  $$</li>
+<li><strong>H₂O₂(l) Adjustment</strong>: Convert $ G(\text{H}_2\text{O}_2\text{(g)}) $ to liquid phase:$$
+  G(\text{H}_2\text{O}_2\text{(l)}) = G(\text{H}_2\text{O}_2\text{(g)}) - 0.28 \, \text{eV}
+  $$</li>
+<li><strong>Adsorption Sites</strong>: Optimize *O₂, *OOH, *HOOH configurations for stability.</li>
+<li><strong>Consistency</strong>: Use identical DFT settings for all species.</li>
+<li><strong>Entropy &amp; ZPE</strong>: Include these corrections from frequency calculations.</li>
+</ul>
+<hr />
+<h2 id="summary"><strong>Summary</strong><a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Accurate ΔG calculation for O₂ to H₂O₂ requires precise energy terms, gas-phase corrections, and consistent methods. These steps enable a reliable free energy diagram for evaluating ORR catalysts.</p>
 
 
 
