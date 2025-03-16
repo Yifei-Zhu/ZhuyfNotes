@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://ZhuYifei.github.io/index.html</loc>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/index.html</loc>
          <lastmod>2025-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZhuYifei.github.io/wiki/tags.html</loc>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/index.html</loc>
          <lastmod>2025-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZhuYifei.github.io/wiki/qm_cal/gibbs_ORR.html</loc>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/homepage.html</loc>
          <lastmod>2025-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZhuYifei.github.io/wiki/tags.html</loc>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/tags.html</loc>
+         <lastmod>2025-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/qm_cal/gibbs_ORR.html</loc>
+         <lastmod>2025-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/tags.html</loc>
          <lastmod>2025-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
