@@ -1,0 +1,130 @@
+site_name: ZhuyfWiki
+site_url: https://ZhuYifei.github.io/
+repo_name: ZhuyfWiki
+repo_url: https://github.com/Yifei-Zhu/ZhuYifei.github.io.git
+extra:
+  social:
+    - icon: fontawesome/solid/gear
+      link: mailto:zhuyifei.phil@gmail.com
+      name: Contact Zhuyf
+    - icon: simple/gitee
+      link: https://gitee.com/Zhu-Yifei_1998
+      name: Gitee repository
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yifei-Zhu
+      name: GitHub repository
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+  # version:
+  #   provider: mike
+  generator: false
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    repo: simple/gitee
+    # fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: teal
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        # name: Switch to dark mode
+        name: 切换至深色模式
+
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        # name: Switch to light mode
+        name: 切换至浅色模式
+
+  # language: zh
+  language: en
+  features:
+    - header.autohide
+    - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - content.tooltips
+    - search.suggest
+    # - search.highlight
+    - search.share
+    - content.code.annotate
+    # - toc.integrate
+
+    #  render temporary announcements that can be marked as read by the user
+    - announce.dismiss
+
+plugins:
+  - offline
+  - search:
+      separator: '[\s\-\.]'
+  - tags:
+      tags_file: wiki/tags.md
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - markdown.extensions.codehilite
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/analytic.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: ./index.md
+  - Wikis:
+      # - LLM Applications
+      - QM software:
+        - ./wiki/qm_cal/gibbs_ORR.md
+      - Tags Quick Index: ./wiki/tags.md
