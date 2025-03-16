@@ -14,7 +14,7 @@ hide:
 
 <div class="hero-buttons" markdown>
 [Contact Me](#get-in-touch){ .md-button .md-button--primary } 
-[Wiki Timeline](wiki/timeline.md){ .md-button }
+[Wiki Directory](wiki/){ .md-button }
 </div>
 
 </div>

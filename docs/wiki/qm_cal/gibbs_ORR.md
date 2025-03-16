@@ -50,6 +50,30 @@ Proton-electron steps use the computational hydrogen electrode (CHE) model: $G(\
 4. \*HOOH → H₂O₂(l) + *:
    $\Delta G_4 = G(*) + G(\text{H}_2\text{O}_2\text{(l)}) - G(*\text{HOOH})$
 
+### **Other Considerations**
+#### **$\Delta G_U$: Electrode Potential**
+$\Delta G_U = -n \times e \times U$
+
+- $n$: Number of electrons (1 per proton-electron step).
+- $U$: Electrode potential (V vs. SHE).
+
+Set $U = 0$ V for baseline; adjust as needed.
+
+#### **$\Delta G_{\text{pH}}$: pH Effect**
+$\Delta G_{\text{pH}} = 0.0592 \times \text{pH} \, \text{(eV)}$
+
+- pH = 0 (acidic): $\Delta G_{\text{pH}} = 0$.
+- Adjust for other pH values (e.g., pH = 7 → 0.414 eV).
+
+#### **Entropy ($S$) Calculation**
+If you calculate $ΔG$ using Gaussian, the $G$ can be obtained directly. Otherwise, you might need to calculate $ΔG$ with $ΔS$.
+
+- **Adsorbed Species**: From frequency analysis (e.g., VASP):
+  1. Vibrational factor: $x_i = \frac{100 \times c \times h \times \nu_i}{k_B \times T}$.
+  2. Partition function: $p f_i = \frac{x_i}{e^{x_i} - 1} - \log(1 - e^{-x_i})$.
+  3. Total entropy: $S = \frac{R \times \sum p f_i}{1000 \times 96.485}$ (eV/K).
+- **Gas Phase (O₂, H₂, H₂O₂)**: Use Gaussian 16 (6-311G* basis) to calculate vibrational, rotational, and translational contributions.
+
 ### **Free Energy Diagram**
 
 - Reference: O₂(g) + * = 0 eV.
@@ -62,12 +86,11 @@ Proton-electron steps use the computational hydrogen electrode (CHE) model: $G(\
 - **O₂(g) Correction**: DFT underestimates O₂(g) stability. Use:$$
   G(\text{O}_2\text{(g)}) = 2G(\text{H}_2\text{O}) - 2G(\text{H}_2) + 4.92 \, \text{eV}
   $$
-- **H₂O₂(l) Adjustment**: Convert $ G(\text{H}_2\text{O}_2\text{(g)}) $ to liquid phase:$$
-  G(\text{H}_2\text{O}_2\text{(l)}) = G(\text{H}_2\text{O}_2\text{(g)}) - 0.28 \, \text{eV}
-  $$
+- **H₂O₂(l) Adjustment**: Convert $G(\text{H}_2\text{O}_2\text{(g)}) $ to liquid phase:
+  $G(\text{H}_2\text{O}_2\text{(l)}) = G(\text{H}_2\text{O}_2\text{(g)}) - 0.28 \, \text{eV}$
 - **Adsorption Sites**: Optimize *O₂, *OOH, *HOOH configurations for stability.
 - **Consistency**: Use identical DFT settings for all species.
-- **Entropy & ZPE**: Include these corrections from frequency calculations.
+- **Corrections**: Include ZPE, entropy, $ \Delta G_U $, and $ \Delta G_{\text{pH}} $ if needed.
 
 ---
 
