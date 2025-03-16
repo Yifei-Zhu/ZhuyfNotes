@@ -1,0 +1,38 @@
+name: Update Wiki Timeline
+
+on:
+  push:
+    paths:
+      - 'docs/wiki/**'
+    branches:
+      - main
+
+jobs:
+  update-timeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyYAML python-frontmatter
+
+      - name: Update Timeline
+        run: |
+          python .github/scripts/update_timeline.py
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/wiki/timeline.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update wiki timeline"
+          git push 
