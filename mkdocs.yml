@@ -125,7 +125,14 @@ extra_javascript:
 nav:
   - Home: ./index.md
   - Wikis:
-      # - LLM Applications
+    #- Machine learning
+      #- ML Paper:
+      #- ML Theory:
+    #- LLM Applications
+    - Programming:
+      - Git:
+        - Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+    - Miscullaneous:
       - QM software:
         - ./wiki/qm_cal/gibbs_ORR.md
-      - Tags Quick Index: ./wiki/tags.md
+    - Tags Quick Index: ./wiki/tags.md
