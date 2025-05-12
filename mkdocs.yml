@@ -125,9 +125,10 @@ extra_javascript:
 nav:
   - Home: ./index.md
   - Wikis:
-    #- Machine learning
+    - Machine learning
       #- ML Paper:
       #- ML Theory:
+      - Learning Source: ./wiki/ml/studying.md
     #- LLM Applications
     - Programming:
       - Git:
