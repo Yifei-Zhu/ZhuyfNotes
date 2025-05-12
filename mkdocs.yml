@@ -125,8 +125,8 @@ extra_javascript:
 nav:
   - Home: ./index.md
   - Wikis:
-    - Machine learning
-    - Learning Source: ./wiki/ml/studying.md
+    - Machine learning:
+      - Learning Source: ./wiki/ml/studying.md
     #- LLM Applications
     - Programming:
       - Git:
