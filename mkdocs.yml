@@ -126,9 +126,7 @@ nav:
   - Home: ./index.md
   - Wikis:
     - Machine learning
-      #- ML Paper:
-      #- ML Theory:
-      - Learning Source: ./wiki/ml/studying.md
+    - Learning Source: ./wiki/ml/studying.md
     #- LLM Applications
     - Programming:
       - Git:
