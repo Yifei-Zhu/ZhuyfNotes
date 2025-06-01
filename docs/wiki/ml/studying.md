@@ -23,7 +23,8 @@ tags:
 
 |Link|Note
 |---|---|
-| [https://lilianweng.github.io/](https://lilianweng.github.io/] | Blog of Lilian Weng
+| [https://github.com/mli/paper-reading](https://github.com/mli/paper-reading) |paper-reading by Mu Li 
+| [https://lilianweng.github.io/](https://lilianweng.github.io/) | Blog of Lilian Weng
 | [https://spaces.ac.cn/category/Big-Data](https://spaces.ac.cn/category/Big-Data) | Blog of Jianlin Su
 | [https://yang-song.net/blog/](https://yang-song.net/blog/) | Blog of Yang Song
 | [https://distill.pub/](https://distill.pub/) | Showing code with animation
