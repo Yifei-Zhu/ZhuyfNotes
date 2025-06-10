@@ -30,7 +30,7 @@ tags:
 | [https://distill.pub/](https://distill.pub/) | Showing code with animation
 | [https://ppwwyyxx.com/blog/](https://ppwwyyxx.com/blog/) | Blog of Yuxin Wu (Author of Detectron2)
 | [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/) |  Jason Brownlee's Blog
-
+| [https://sassafras13.github.io/](https://sassafras13.github.io/) | Emma Benjaminson's Blog
 
 ### Community
 
