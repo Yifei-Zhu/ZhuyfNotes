@@ -132,6 +132,7 @@ nav:
       - Git:
         - Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
     - Miscullaneous:
-      - QM software:
-        - ./wiki/qm_cal/gibbs_ORR.md
+      - Computational Chemistry:
+        - ./wiki/comput_chem/gibbs_ORR.md
+        - ./wiki/comput_chem/conf_gen.md
     - Tags Quick Index: ./wiki/tags.md
