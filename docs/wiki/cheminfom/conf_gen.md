@@ -5,7 +5,7 @@ author: Yifei Zhu
 comments: true
 tags:
  - Conformer Generation
- - Computational Chemistry
+ - Cheminformatics
 ---
 ## Open-Source v.s. Commercial
 ### Open-Source Tools

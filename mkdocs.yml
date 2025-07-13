@@ -128,11 +128,16 @@ nav:
     - Machine learning:
       - Learning Source: ./wiki/ml/studying.md
     #- LLM Applications
+    - Cheminformatics:
+        - ./wiki/cheminfom/conf_gen.md
     - Programming:
       - Git:
         - Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+      - LeetCode:
+        - Preface: ./wiki/leetcode/preface.md
+        - Array: ./wiki/leetcode/array.md
     - Miscullaneous:
       - Computational Chemistry:
         - ./wiki/comput_chem/gibbs_ORR.md
-        - ./wiki/comput_chem/conf_gen.md
+
     - Tags Quick Index: ./wiki/tags.md
