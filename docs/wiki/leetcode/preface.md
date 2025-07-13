@@ -13,7 +13,7 @@ tags:
 
 ### 1 Array (including Binary search)
 
-- [ ] 704
+- [x] 704
 - [ ] 27
 - [ ] 977
 - [ ] 209
