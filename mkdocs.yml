@@ -135,8 +135,9 @@ nav:
         - Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
       - LeetCode:
         - Preface: ./wiki/leetcode/preface.md
-        - Array: ./wiki/leetcode/array.md
-    - Miscullaneous:
+        - Two Pointers: ./wiki/leetcode/two_pointers.md
+        - Sliding Window: ./wiki/leetcode/slide_window.md
+    - Miscellaneous:
       - Computational Chemistry:
         - ./wiki/comput_chem/gibbs_ORR.md
 
