@@ -10,10 +10,10 @@
         <meta name="author" content="Yifei Zhu">
       
       
-        <link rel="canonical" href="https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/leetcode/array.html">
+        <link rel="canonical" href="https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/leetcode/slide_window.html">
       
       
-        <link rel="prev" href="preface.html">
+        <link rel="prev" href="two_pointers.html">
       
       
         <link rel="next" href="../comput_chem/gibbs_ORR.html">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Array - ZhuyfWiki</title>
+        <title>Sliding Window Algorithm in LeetCode - ZhuyfWiki</title>
       
     
     
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Array
+              Sliding Window Algorithm in LeetCode
             
           </span>
         </div>
@@ -627,6 +627,8 @@
       
         
       
+        
+      
     
     
     
@@ -687,6 +689,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="two_pointers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Two Pointers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -702,7 +727,7 @@
   
   
   <span class="md-ellipsis">
-    Array
+    Sliding Window
     
   </span>
   
@@ -710,12 +735,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="array.html" class="md-nav__link md-nav__link--active">
+      <a href="slide_window.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Array
+    Sliding Window
     
   </span>
   
@@ -738,7 +763,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      
+      滑动窗口典型例题分类表
     </span>
   </a>
   
@@ -798,7 +823,7 @@
   
   
   <span class="md-ellipsis">
-    Miscullaneous
+    Miscellaneous
     
   </span>
   
@@ -809,7 +834,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            Miscullaneous
+            Miscellaneous
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -953,7 +978,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      
+      滑动窗口典型例题分类表
     </span>
   </a>
   
@@ -1000,9 +1025,119 @@
   
 
 
-  <h1>Array</h1>
+  <h1>Sliding Window</h1>
 
-<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_1">滑动窗口典型例题分类表<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>题目编号</th>
+<th>题目名称</th>
+<th>难度</th>
+<th>关键点</th>
+<th>相关题目</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>基础窗口</strong></td>
+<td>209</td>
+<td>长度最小的子数组</td>
+<td>Medium</td>
+<td>满足和≥target的最小窗口</td>
+<td>643</td>
+</tr>
+<tr>
+<td></td>
+<td>643</td>
+<td>子数组最大平均数I</td>
+<td>Easy</td>
+<td>固定大小窗口的快速计算</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>字符串匹配</strong></td>
+<td>76</td>
+<td>最小覆盖子串</td>
+<td>Hard</td>
+<td>需要哈希表辅助统计字符</td>
+<td>438</td>
+</tr>
+<tr>
+<td></td>
+<td>438</td>
+<td>找到字符串中所有字母异位词</td>
+<td>Medium</td>
+<td>固定窗口的字符频率匹配</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>无重复字符</strong></td>
+<td>3</td>
+<td>无重复字符的最长子串</td>
+<td>Medium</td>
+<td>哈希表记录字符最后出现位置</td>
+<td>159</td>
+</tr>
+<tr>
+<td></td>
+<td>159</td>
+<td>至多包含两个不同字符的最长子串</td>
+<td>Medium</td>
+<td>维护两种字符的滑动窗口</td>
+<td>340</td>
+</tr>
+<tr>
+<td><strong>计数问题</strong></td>
+<td>992</td>
+<td>K个不同整数的子数组</td>
+<td>Hard</td>
+<td>精确K个=最多K个-最多(K-1)个</td>
+<td>1248</td>
+</tr>
+<tr>
+<td></td>
+<td>1248</td>
+<td>统计「优美子数组」</td>
+<td>Medium</td>
+<td>奇数的计数窗口</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>特殊条件窗口</strong></td>
+<td>1208</td>
+<td>尽可能使字符串相等</td>
+<td>Medium</td>
+<td>转化ASCII差值的窗口和</td>
+<td>1423</td>
+</tr>
+<tr>
+<td></td>
+<td>1423</td>
+<td>可获得的最大点数</td>
+<td>Medium</td>
+<td>首尾窗口的逆向思维</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>多指针窗口</strong></td>
+<td>930</td>
+<td>和相同的二元子数组</td>
+<td>Medium</td>
+<td>前缀和+哈希表的复合使用</td>
+<td>560</td>
+</tr>
+<tr>
+<td></td>
+<td>560</td>
+<td>和为K的子数组</td>
+<td>Medium</td>
+<td>前缀和哈希的特殊处理</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 
