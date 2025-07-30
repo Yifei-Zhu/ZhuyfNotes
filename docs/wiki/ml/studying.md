@@ -18,6 +18,9 @@ tags:
 |[https://nn.labml.ai/](https://nn.labml.ai/) | Annotated Research Paper Implementations
 |[https://github.com/lucidrains](https://github.com/lucidrains) | Phillip Wang's Github repository ([About P. Wang](https://phillipkwang.com/))
 |[https://bohrium.dp.tech/](https://bohrium.dp.tech/) | DPTechnology 
+|[https://github.com/Lordog/dive-into-llms.git](https://github.com/Lordog/dive-into-llms.git) | Shanghai Jiao Tong University
+|[https://github.com/Fafa-DL/Awesome-Backbones.git](https://github.com/Fafa-DL/Awesome-Backbones.git) | 啥都会一点的研究生
+|[https://github.com/thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library) | THUML @ Tsinghua University
 
 ### Algorithm
 
@@ -31,6 +34,7 @@ tags:
 | [https://ppwwyyxx.com/blog/](https://ppwwyyxx.com/blog/) | Blog of Yuxin Wu (Author of Detectron2)
 | [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/) |  Jason Brownlee's Blog
 | [https://sassafras13.github.io/](https://sassafras13.github.io/) | Emma Benjaminson's Blog
+|[https://www.gnn.club/](https://www.gnn.club/) | GNN Club
 
 ### Community
 

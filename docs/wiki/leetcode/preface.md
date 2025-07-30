@@ -34,7 +34,7 @@ tags:
 
 ## Categories of LeetCode Problems
 
-**Status: 1 - Seen 2 - Basic 3 - Mastered**
+**Status: 0 - GG 1 - Seen 2 - Basic 3 - Mastered**
 
 ### 1 Array (including Binary search)
 
@@ -46,9 +46,9 @@ tags:
 | 977 | Squares of a Sorted Array        | Easy       | 双指针（首尾指针） | 2      |
 | 209 | Minimum Size Subarray Sum        | Medium     | 滑动窗口 | 1      |
 | 59  | Spiral Matrix II                 | Medium     | 模拟、边界控制 |    1    |
-| 44  | Wildcard Matching                | Hard       | 动态规划/回溯 |        |
-| 58  | Length of Last Word              | Easy       | 字符串处理 |        |
-| 1365| How Many Numbers Are Smaller     | Easy       | 排序+哈希/计数排序 |        |
+| 44  | Wildcard Matching                | Hard       | 动态规划/回溯 |   0     |
+| 58  | Length of Last Word              | Easy       | 字符串处理 |    2    |
+| 1365| How Many Numbers Are Smaller     | Easy       | 排序+哈希/计数排序 |    1    |
 | 941 | Valid Mountain Array             | Easy       | 双指针/单次遍历 |        |
 | 1207| Unique Number of Occurrences     | Easy       | 哈希表统计频率 |        |
 | 283 | Move Zeroes                      | Easy       | 双指针（快慢指针） |        |
