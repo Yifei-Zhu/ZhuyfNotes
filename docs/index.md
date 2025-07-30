@@ -14,7 +14,7 @@ hide:
 
 <div class="hero-buttons" markdown>
 [Contact Me](#get-in-touch){ .md-button .md-button--primary } 
-[Wiki Directory](wiki/){ .md-button }
+[Wiki Directory](wiki/tags.md){ .md-button }
 </div>
 
 </div>
@@ -30,8 +30,8 @@ I'm **ZhuYifei**, a computational chemistry PhD student specializing in machine 
 
 <div class="card" markdown>
 ### Machine Learning & AI
-- Deep learning applications
-- AI model development
+- Deep learning & LLM
+- Big data analytics
 - Interdisciplinary AI solutions
 </div>
 
