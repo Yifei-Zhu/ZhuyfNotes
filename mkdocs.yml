@@ -131,8 +131,8 @@ nav:
     - Cheminformatics:
         - ./wiki/cheminfom/conf_gen.md
     - Programming:
-      - Git:
-        - Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+      - Git Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+      - Python Parallel: ./wiki/programming/python_ parallel.md
       - LeetCode:
         - Preface: ./wiki/leetcode/preface.md
         - Two Pointers: ./wiki/leetcode/two_pointers.md
