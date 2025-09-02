@@ -21,7 +21,7 @@ tags:
 |[https://github.com/Lordog/dive-into-llms.git](https://github.com/Lordog/dive-into-llms.git) | Shanghai Jiao Tong University
 |[https://github.com/Fafa-DL/Awesome-Backbones.git](https://github.com/Fafa-DL/Awesome-Backbones.git) | 啥都会一点的研究生
 |[https://github.com/thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library) | THUML @ Tsinghua University
-
+|[https://github.com/jwasham/coding-interview-university.git](https://github.com/jwasham/coding-interview-university.git) | John Washam (Amazon)
 ### Algorithm
 
 |Link|Note
