@@ -127,6 +127,8 @@ nav:
   - Wikis:
     - Machine learning:
       - Learning Source: ./wiki/ml/studying.md
+      - ML in Chemistry: 
+        - ML in Vibrational Spectroscopy: ./wiki/ml/ml_virantional_spectra.md
     #- LLM Applications
     - Cheminformatics:
         - ./wiki/cheminfom/conf_gen.md
