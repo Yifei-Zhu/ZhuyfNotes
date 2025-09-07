@@ -33,7 +33,7 @@ In addition, spectra can also be obtained from molecular dynamics simulations by
 
 ### References
 
-1.  Hu, T.; Zou, Z.; Li, B.; Zhu, T.; Gu, S.; Jiang, J.; Luo, Y.; Hu, W. Deep Learning for Bidirectional Translation between Molecular Structures and Vibrational Spectra. *J. Am. Chem. Soc.* **2025**, *147*, 27525–27536. https://doi.org/10.1021/jacs.5c05010.
+1.  Hu, T.; Zou, Z.; Li, B.; Zhu, T.; Gu, S.; Jiang, J.; Luo, Y.; Hu, W. Deep Learning for Bidirectional Translation between Molecular Structures and Vibrational Spectra. *J. Am. Chem. Soc.* **2025**, *147*, 27525–27536. (https://doi.org/10.1021/jacs.5c05010)[https://doi.org/10.1021/jacs.5c05010]
 2.  Zhu, D.; Brookes, D. H.; Busia, A.; Carneiro, A.; Fannjiang, C.; Popova, G.; Shin, D.; Donohue, K. C.; Lin, L. F.; Miller, Z. M.; Williams, E. R.; Chang, E. F.; Nowakowski, T. J.; Listgarten, J.; Schaffer, D. V. Optimal Trade-Off Control in Machine Learning−Based Library Design, with Application to Adeno-Associated Virus (AAV) for Gene Therapy. *Sci. Adv.* **2024**, *10* (4), No. eadj3786.
 3.  Zong, Y.; Wang, Y.; Qiu, X.; Huang, X.; Qiao, L. Deep Learning Prediction of Glycopeptide Tandem Mass Spectra Powers Glycoproteomics. *Nat. Mach. Intell.* **2024**, *6* (8), 950−961.
 4.  Skinnider, M. A.; Wang, F.; Pasin, D.; Greiner, R.; Foster, L. J.; Dalsgaard, P. W.; Wishart, D. S. A Deep Generative Model Enables Automated Structure Elucidation of Novel Psychoactive Substances. *Nat. Mach. Intell.* **2021**, *3* (11), 973−984.
@@ -44,6 +44,10 @@ In addition, spectra can also be obtained from molecular dynamics simulations by
 9.  Sridharan, B.; Mehta, S.; Pathak, Y.; Priyakumar, U. D. Deep Reinforcement Learning for Molecular Inverse Problem of Nuclear Magnetic Resonance Spectra to Molecular Structure. *J. Phys. Chem. Lett.* **2022**, *13* (22), 4924−4933.
 10. Hou, Y. F.; Wang, C.; Dral, P. O. Accurate and Affordable Simulation of Molecular Infrared Spectra with AIQM Models. *J. Phys. Chem. A* **2025**, *129* (16), 3613−3623.
 11. Zheng, P.; Zubatyuk, R.; Wu, W.; Isayev, O.; Dral, P. O. Artificial Intelligence-Enhanced Quantum Chemical Method with Broad Applicability. *Nat. Commun.* **2021**, *12* (1), No. 7022.
-13. Ghosh, K.; Stuke, A.; Todorović, M.; Jørgensen, P. B.; Schmidt, M. N.; Vehtari, A.; Rinke, P. Deep Learning Spectroscopy: Neural Networks for Molecular Excitation Spectra. *Adv. Sci.* **2019**, *6* (9), No. 1801367.
-14. Gastegger, M.; Schütt, K. T.; Müller, K. R. Machine Learning of Solvent Effects on Molecular Spectra and Reactions. *Chem. Sci.* **2021**, *12* (34), 11473−11483.
-15. Zhang, Y.; Jiang, B. Universal Machine Learning for the Response of Atomistic Systems to External Fields. *Nat. Commun.* **2023**, *14* (1), No. 6424.
+12. Ghosh, K.; Stuke, A.; Todorović, M.; Jørgensen, P. B.; Schmidt, M. N.; Vehtari, A.; Rinke, P. Deep Learning Spectroscopy: Neural Networks for Molecular Excitation Spectra. *Adv. Sci.* **2019**, *6* (9), No. 1801367.
+13. Gastegger, M.; Schütt, K. T.; Müller, K. R. Machine Learning of Solvent Effects on Molecular Spectra and Reactions. *Chem. Sci.* **2021**, *12* (34), 11473−11483.
+14. Zhang, Y.; Jiang, B. Universal Machine Learning for the Response of Atomistic Systems to External Fields. *Nat. Commun.* **2023**, *14* (1), No. 6424.
+15. Yuan, M.; Zou, Z.; Luo, Y.; et al. QMe14S, A Comprehensive
+and Efficient Spectral Dataset for Small Organic Molecules. J. Phys.
+Chem. Lett. 2025, 16, 3972−3979.
+16. Zou, Z.; Zhang, Y.; Liang, L.; Wei, M.; Leng, J.; Jiang, J.; Luo, Y.; Hu, W. A Deep Learning Model for Predicting Selected Organic Molecular Spectra. *Nat. Comput. Sci.* **2023**, *3*, 957–964.
