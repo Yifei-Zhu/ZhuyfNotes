@@ -33,7 +33,7 @@ In addition, spectra can also be obtained from molecular dynamics simulations by
 
 ### References
 
-1.  Hu, T.; Zou, Z.; Li, B.; Zhu, T.; Gu, S.; Jiang, J.; Luo, Y.; Hu, W. Deep Learning for Bidirectional Translation between Molecular Structures and Vibrational Spectra. *J. Am. Chem. Soc.* **2025**, *147*, 27525–27536. (https://doi.org/10.1021/jacs.5c05010)[https://doi.org/10.1021/jacs.5c05010]
+1.  Hu, T.; Zou, Z.; Li, B.; Zhu, T.; Gu, S.; Jiang, J.; Luo, Y.; Hu, W. Deep Learning for Bidirectional Translation between Molecular Structures and Vibrational Spectra. *J. Am. Chem. Soc.* **2025**, *147*, 27525–27536. [https://doi.org/10.1021/jacs.5c05010](https://doi.org/10.1021/jacs.5c05010)
 2.  Zhu, D.; Brookes, D. H.; Busia, A.; Carneiro, A.; Fannjiang, C.; Popova, G.; Shin, D.; Donohue, K. C.; Lin, L. F.; Miller, Z. M.; Williams, E. R.; Chang, E. F.; Nowakowski, T. J.; Listgarten, J.; Schaffer, D. V. Optimal Trade-Off Control in Machine Learning−Based Library Design, with Application to Adeno-Associated Virus (AAV) for Gene Therapy. *Sci. Adv.* **2024**, *10* (4), No. eadj3786.
 3.  Zong, Y.; Wang, Y.; Qiu, X.; Huang, X.; Qiao, L. Deep Learning Prediction of Glycopeptide Tandem Mass Spectra Powers Glycoproteomics. *Nat. Mach. Intell.* **2024**, *6* (8), 950−961.
 4.  Skinnider, M. A.; Wang, F.; Pasin, D.; Greiner, R.; Foster, L. J.; Dalsgaard, P. W.; Wishart, D. S. A Deep Generative Model Enables Automated Structure Elucidation of Novel Psychoactive Substances. *Nat. Mach. Intell.* **2021**, *3* (11), 973−984.
