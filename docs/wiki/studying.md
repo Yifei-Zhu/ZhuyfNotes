@@ -1,0 +1,71 @@
+---
+layout: page
+title: Recommended Learning Resources
+author: Yifei Zhu
+comments: true
+tags:
+ - ML
+ - AI
+ - Linux
+---
+## Machine Learning
+
+### Programing
+
+#### ML 
+
+| Link                                                                                                                     | Note                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| [https://zh-v2.d2l.ai/](https://zh-v2.d2l.ai/)                                                                           | Dive in to Deep Learning by Mu Li et al.                                      |
+| [https://nn.labml.ai/](https://nn.labml.ai/)                                                                             | Annotated Research Paper Implementations                                      |
+| [https://github.com/lucidrains](https://github.com/lucidrains)                                                           | Phillip Wang's Github repository ([About P. Wang](https://phillipkwang.com/)) |
+| [https://bohrium.dp.tech/](https://bohrium.dp.tech/)                                                                     | DPTechnology                                                                  |
+| [https://github.com/Fafa-DL/Awesome-Backbones.git](https://github.com/Fafa-DL/Awesome-Backbones.git)                     | 啥都会一点的研究生                                                                     |
+| [https://github.com/thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library)                             | THUML @ Tsinghua University                                                   |
+| [https://github.com/jwasham/coding-interview-university.git](https://github.com/jwasham/coding-interview-university.git) | John Washam (Amazon)                                                          |
+
+#### LLM
+
+| Link                                                                                         | Note                          |
+| -------------------------------------------------------------------------------------------- | ----------------------------- |
+| [https://github.com/Lordog/dive-into-llms.git](https://github.com/Lordog/dive-into-llms.git) | Shanghai Jiao Tong University |
+| https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery                           | HKUST                         |
+
+### Algorithm
+
+| Link | Note |
+|---|---|
+| [https://github.com/mli/paper-reading](https://github.com/mli/paper-reading) |paper-reading by Mu Li 
+| [https://lilianweng.github.io/](https://lilianweng.github.io/) | Blog of Lilian Weng
+| [https://spaces.ac.cn/category/Big-Data](https://spaces.ac.cn/category/Big-Data) | Blog of Jianlin Su
+| [https://yang-song.net/blog/](https://yang-song.net/blog/) | Blog of Yang Song
+| [https://distill.pub/](https://distill.pub/) | Showing code with animation
+| [https://ppwwyyxx.com/blog/](https://ppwwyyxx.com/blog/) | Blog of Yuxin Wu (Author of Detectron2)
+| [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/) |  Jason Brownlee's Blog
+| [https://sassafras13.github.io/](https://sassafras13.github.io/) | Emma Benjaminson's Blog
+|[https://www.gnn.club/](https://www.gnn.club/) | GNN Club
+
+### Community
+
+|Link|Note|
+|---|---|
+|[https://towardsdatascience.com/](https://towardsdatascience.com/)| Towards Data Science
+|[https://www.kaggle.com/code](https://www.kaggle.com/code) | Kaggle
+|[https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | awesome-machine-learning repository covers almost every aspect of machine learning resources.
+
+## Computer Science
+
+| Link                                                                     | Note                                                                   |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| [https://github.com/NISP-GmbH/SLURM](https://github.com/NISP-GmbH/SLURM) | A script that downloads, extracts, compiles and installs Slurm for you |
+
+## Computational Chemistry
+
+| Link                   | Note                                                               |
+| ---------------------- | ------------------------------------------------------------------ |
+| http://sobereva.com/43 | Free online databases and tools related to computational chemistry |
+
+
+
+
+

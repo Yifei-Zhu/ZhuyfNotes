@@ -7,7 +7,6 @@ tags:
  - Programming
  - Python
 ---
-
 ## Categories
 
 | Computing Type | Recommended Libraries & Modules |

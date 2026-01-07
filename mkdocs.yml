@@ -70,6 +70,7 @@ theme:
     - announce.dismiss
 
 plugins:
+  - awesome-pages
   - offline
   - search:
       separator: '[\s\-\.]'
@@ -122,25 +123,3 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-nav:
-  - Home: ./index.md
-  - Wikis:
-    - Machine learning:
-      - Learning Source: ./wiki/ml/studying.md
-      - ML in Chemistry: 
-        - ML in Vibrational Spectroscopy: ./wiki/ml/ml_virantional_spectra.md
-    #- LLM Applications
-    - Cheminformatics:
-        - ./wiki/cheminfom/conf_gen.md
-    - Programming:
-      - Git Convensional Commits: https://www.conventionalcommits.org/en/v1.0.0/
-      - Python Parallel: ./wiki/programming/python_parallel.md
-      - LeetCode:
-        - Preface: ./wiki/leetcode/preface.md
-        - Two Pointers: ./wiki/leetcode/two_pointers.md
-        - Sliding Window: ./wiki/leetcode/slide_window.md
-    - Miscellaneous:
-      - Computational Chemistry:
-        - ./wiki/comput_chem/gibbs_ORR.md
-
-    - Tags Quick Index: ./wiki/tags.md
