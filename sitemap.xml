@@ -2,42 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/index.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/studying.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
          <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/tags.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/cheminfom/conf_gen.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Cheminformatics/chem_py_lib.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/comput_chem/gibbs_ORR.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Cheminformatics/conf_gen.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/leetcode/preface.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Cheminformatics/pysisyphus.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/leetcode/slide_window.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Cheminformatics/rdkit_gen.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/leetcode/two_pointers.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ComputChem/gibbs_ORR.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ml/ml_virantional_spectra.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ComputSci/python_web.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ml/studying.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ComputSci/raid_workflow.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Leetcode/207.%E8%AF%BE%E7%A8%8B%E8%A1%A8.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/AI4S/ml_virantional_spectra.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Algorithms/nested_cv.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Algorithms/orthogonal_signal_correction.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Algorithms/shap.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Algorithms/smith_waterman_algorithm.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Algorithms/tanimoto_and_dice.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/Descriptor/KANO.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/LLM/causal_transformer.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/LLM/contrastive_learning.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/LLM/deepseek_v3.2.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/LLM/in_context_learning.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/ML/LLM/sequence_packing.html</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/programming/latex_tips.html</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
          <loc>https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/programming/python_parallel.html</loc>
-         <lastmod>2025-09-07</lastmod>
+         <lastmod>2026-01-07</lastmod>
     </url>
 </urlset>

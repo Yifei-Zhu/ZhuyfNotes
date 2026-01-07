@@ -7,32 +7,34 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-      
-        <link rel="canonical" href="https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/tags.html">
-      
-      
-        <link rel="prev" href="studying.html">
+        <meta name="author" content="Yifei Zhu">
       
       
-        <link rel="next" href="Cheminformatics/chem_py_lib.html">
+        <link rel="canonical" href="https://yifei-zhu.github.io/ZhuYifei.github.io/wiki/Cheminformatics/rdkit_gen.html">
+      
+      
+        <link rel="prev" href="pysisyphus.html">
+      
+      
+        <link rel="next" href="../ComputChem/gibbs_ORR.html">
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Tags - ZhuyfWiki</title>
+        <title>RDKit Conformer Generation - ZhuyfWiki</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tags" class="md-skip">
+        <a href="#1-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="ZhuyfWiki" class="md-header__button md-logo" aria-label="ZhuyfWiki" data-md-component="logo">
+    <a href="../../index.html" title="ZhuyfWiki" class="md-header__button md-logo" aria-label="ZhuyfWiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tags
+              RDKit Conformer Generation
             
           </span>
         </div>
@@ -237,7 +239,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="ZhuyfWiki" class="md-nav__button md-logo" aria-label="ZhuyfWiki" data-md-component="logo">
+    <a href="../../index.html" title="ZhuyfWiki" class="md-nav__button md-logo" aria-label="ZhuyfWiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -267,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         
   
   
@@ -366,7 +368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="studying.html" class="md-nav__link">
+      <a href="../studying.html" class="md-nav__link">
         
   
   
@@ -391,37 +393,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tags
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="tags.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../tags.html" class="md-nav__link">
         
   
   
@@ -437,235 +412,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tag:ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:algo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Algo
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:cheminformatics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cheminformatics
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:computsci" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ComputSci
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:descriptor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Descriptor
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:gaussian" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gaussian
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:llm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LLM
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:latex" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LaTeX
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Linux
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:ml" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ML
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:physchem" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PhysChem
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:preprocessing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Preprocessing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:programming" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Programming
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:python" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Python
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:rdkit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        RDKit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:raid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Raid
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:transformer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transformer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:ubuntu" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ubuntu
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:web" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -675,8 +421,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -694,11 +442,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -719,7 +467,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -737,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Cheminformatics/chem_py_lib.html" class="md-nav__link">
+      <a href="chem_py_lib.html" class="md-nav__link">
         
   
   
@@ -765,7 +513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Cheminformatics/conf_gen.html" class="md-nav__link">
+      <a href="conf_gen.html" class="md-nav__link">
         
   
   
@@ -793,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Cheminformatics/pysisyphus.html" class="md-nav__link">
+      <a href="pysisyphus.html" class="md-nav__link">
         
   
   
@@ -818,10 +566,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Cheminformatics/rdkit_gen.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RDKit Conformer Generation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="rdkit_gen.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -837,6 +610,157 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-embedding-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Embedding Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Embedding Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-distance-geometry-dg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Distance Geometry (DG)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-etkdg-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ETKDG Method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. ETKDG Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-what-is-etkdg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 What is ETKDG?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-evolution-of-etkdg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Evolution of ETKDG
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Usage Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Advantages
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-force-field-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Force Field Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -910,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ComputChem/gibbs_ORR.html" class="md-nav__link">
+      <a href="../ComputChem/gibbs_ORR.html" class="md-nav__link">
         
   
   
@@ -1001,7 +925,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ComputSci/python_web.html" class="md-nav__link">
+      <a href="../ComputSci/python_web.html" class="md-nav__link">
         
   
   
@@ -1029,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ComputSci/raid_workflow.html" class="md-nav__link">
+      <a href="../ComputSci/raid_workflow.html" class="md-nav__link">
         
   
   
@@ -1118,7 +1042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Leetcode/207.%E8%AF%BE%E7%A8%8B%E8%A1%A8.html" class="md-nav__link">
+      <a href="../Leetcode/207.%E8%AF%BE%E7%A8%8B%E8%A1%A8.html" class="md-nav__link">
         
   
   
@@ -1266,7 +1190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/AI4S/ml_virantional_spectra.html" class="md-nav__link">
+      <a href="../ML/AI4S/ml_virantional_spectra.html" class="md-nav__link">
         
   
   
@@ -1363,7 +1287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Algorithms/nested_cv.html" class="md-nav__link">
+      <a href="../ML/Algorithms/nested_cv.html" class="md-nav__link">
         
   
   
@@ -1391,7 +1315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Algorithms/orthogonal_signal_correction.html" class="md-nav__link">
+      <a href="../ML/Algorithms/orthogonal_signal_correction.html" class="md-nav__link">
         
   
   
@@ -1419,7 +1343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Algorithms/shap.html" class="md-nav__link">
+      <a href="../ML/Algorithms/shap.html" class="md-nav__link">
         
   
   
@@ -1447,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Algorithms/smith_waterman_algorithm.html" class="md-nav__link">
+      <a href="../ML/Algorithms/smith_waterman_algorithm.html" class="md-nav__link">
         
   
   
@@ -1475,7 +1399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Algorithms/tanimoto_and_dice.html" class="md-nav__link">
+      <a href="../ML/Algorithms/tanimoto_and_dice.html" class="md-nav__link">
         
   
   
@@ -1564,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/Descriptor/KANO.html" class="md-nav__link">
+      <a href="../ML/Descriptor/KANO.html" class="md-nav__link">
         
   
   
@@ -1661,7 +1585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/LLM/causal_transformer.html" class="md-nav__link">
+      <a href="../ML/LLM/causal_transformer.html" class="md-nav__link">
         
   
   
@@ -1689,7 +1613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/LLM/contrastive_learning.html" class="md-nav__link">
+      <a href="../ML/LLM/contrastive_learning.html" class="md-nav__link">
         
   
   
@@ -1717,7 +1641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/LLM/deepseek_v3.2.html" class="md-nav__link">
+      <a href="../ML/LLM/deepseek_v3.2.html" class="md-nav__link">
         
   
   
@@ -1745,7 +1669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/LLM/in_context_learning.html" class="md-nav__link">
+      <a href="../ML/LLM/in_context_learning.html" class="md-nav__link">
         
   
   
@@ -1773,7 +1697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ML/LLM/sequence_packing.html" class="md-nav__link">
+      <a href="../ML/LLM/sequence_packing.html" class="md-nav__link">
         
   
   
@@ -1872,7 +1796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming/latex_tips.html" class="md-nav__link">
+      <a href="../programming/latex_tips.html" class="md-nav__link">
         
   
   
@@ -1900,7 +1824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming/python_parallel.html" class="md-nav__link">
+      <a href="../programming/python_parallel.html" class="md-nav__link">
         
   
   
@@ -1953,8 +1877,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1963,10 +1885,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tag:ai" class="md-nav__link">
+  <a href="#1-overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AI
+        1. Overview
       
     </span>
   </a>
@@ -1974,10 +1896,99 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tag:algo" class="md-nav__link">
+  <a href="#2-embedding-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Algo
+        2. Embedding Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Embedding Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-distance-geometry-dg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Distance Geometry (DG)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-etkdg-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ETKDG Method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. ETKDG Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-what-is-etkdg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 What is ETKDG?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-evolution-of-etkdg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Evolution of ETKDG
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Usage Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Advantages
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-force-field-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Force Field Optimization
       
     </span>
   </a>
@@ -1985,10 +1996,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tag:cheminformatics" class="md-nav__link">
+  <a href="#5-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cheminformatics
+        5. Summary
       
     </span>
   </a>
@@ -1996,175 +2007,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tag:computsci" class="md-nav__link">
+  <a href="#references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ComputSci
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:descriptor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Descriptor
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:gaussian" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gaussian
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:llm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LLM
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:latex" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LaTeX
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Linux
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:ml" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ML
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:physchem" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PhysChem
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:preprocessing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Preprocessing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:programming" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Programming
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:python" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Python
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:rdkit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        RDKit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:raid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Raid
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:transformer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transformer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:ubuntu" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ubuntu
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tag:web" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Web
+        References
       
     </span>
   </a>
@@ -2196,7 +2042,7 @@
   
   
     <li class="md-path__item">
-      <a href="../index.html" class="md-path__link">
+      <a href="../../index.html" class="md-path__link">
         
   <span class="md-ellipsis">
     Home
@@ -2214,10 +2060,28 @@
     
     
       <li class="md-path__item">
-        <a href="studying.html" class="md-path__link">
+        <a href="../studying.html" class="md-path__link">
           
   <span class="md-ellipsis">
     Wiki
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="chem_py_lib.html" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Cheminformatics
   </span>
 
         </a>
@@ -2234,554 +2098,197 @@
                 
                   
 
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags.html#tag:cheminformatics" class="md-tag">Cheminformatics</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags.html#tag:python" class="md-tag">Python</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags.html#tag:rdkit" class="md-tag">RDKit</a>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="tags">Tags<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h1>
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 30px; margin: 20px 0; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; border: none;">
-  <p style="font-size: 1.8em; font-style: italic; color: white; text-align: center; margin: 0; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); letter-spacing: 0.5px;">Why do you assume I see two roads？</p>
-</div>
-
-
-  <h2 id="tag:ai">
-
-
-<span class="md-tag">AI</span><a class="headerlink" href="#tag:ai" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/LLM/causal_transformer.html">
-          Causal Transformer
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/deepseek_v3.2.html">
-          DeepSeek V3.2
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/AI4S/ml_virantional_spectra.html">
-          ML in Vibrational Spectroscopy
-        </a>
-      </li>
-    
-      <li>
-        <a href="studying.html">
-          Recommended Learning Resources
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/sequence_packing.html">
-          Sequence Packing
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:algo">
-
-
-<span class="md-tag">Algo</span><a class="headerlink" href="#tag:algo" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/Algorithms/nested_cv.html">
-          Nested Cross-Validation
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/orthogonal_signal_correction.html">
-          Orthogonal Signal Correction
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/shap.html">
-          SHAP Analysis
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/smith_waterman_algorithm.html">
-          Smith–Waterman Algorithm
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/tanimoto_and_dice.html">
-          Tanimoto Coefficient and Dice Coefficient
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:cheminformatics">
-
-
-<span class="md-tag">Cheminformatics</span><a class="headerlink" href="#tag:cheminformatics" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="Cheminformatics/chem_py_lib.html">
-          Chemistry Python Library
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/pysisyphus.html">
-          Chemistry Python Library
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/conf_gen.html">
-          Conformer Generation Tools
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/rdkit_gen.html">
-          RDKit Conformer Generation
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:computsci">
-
-
-<span class="md-tag">ComputSci</span><a class="headerlink" href="#tag:computsci" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputSci/raid_workflow.html">
-          Langroup Server Raid1
-        </a>
-      </li>
-    
-      <li>
-        <a href="ComputSci/python_web.html">
-          Python Web: Django vs Flask vs FastAPI
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:descriptor">
-
-
-<span class="md-tag">Descriptor</span><a class="headerlink" href="#tag:descriptor" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/Descriptor/KANO.html">
-          KANO
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:gaussian">
-
-
-<span class="md-tag">Gaussian</span><a class="headerlink" href="#tag:gaussian" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputChem/gibbs_ORR.html">
-          Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:llm">
-
-
-<span class="md-tag">LLM</span><a class="headerlink" href="#tag:llm" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/LLM/causal_transformer.html">
-          Causal Transformer
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/contrastive_learning.html">
-          Contrastive Learning
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/deepseek_v3.2.html">
-          DeepSeek V3.2
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/in_context_learning.html">
-          In-Context Learning
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/sequence_packing.html">
-          Sequence Packing
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:latex">
-
-
-<span class="md-tag">LaTeX</span><a class="headerlink" href="#tag:latex" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="programming/latex_tips.html">
-          LaTeX Tips
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:linux">
-
-
-<span class="md-tag">Linux</span><a class="headerlink" href="#tag:linux" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/AI4S/ml_virantional_spectra.html">
-          ML in Vibrational Spectroscopy
-        </a>
-      </li>
-    
-      <li>
-        <a href="studying.html">
-          Recommended Learning Resources
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:ml">
-
-
-<span class="md-tag">ML</span><a class="headerlink" href="#tag:ml" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/LLM/causal_transformer.html">
-          Causal Transformer
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/contrastive_learning.html">
-          Contrastive Learning
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/deepseek_v3.2.html">
-          DeepSeek V3.2
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/in_context_learning.html">
-          In-Context Learning
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Descriptor/KANO.html">
-          KANO
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/AI4S/ml_virantional_spectra.html">
-          ML in Vibrational Spectroscopy
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/nested_cv.html">
-          Nested Cross-Validation
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/orthogonal_signal_correction.html">
-          Orthogonal Signal Correction
-        </a>
-      </li>
-    
-      <li>
-        <a href="studying.html">
-          Recommended Learning Resources
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/shap.html">
-          SHAP Analysis
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/sequence_packing.html">
-          Sequence Packing
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/smith_waterman_algorithm.html">
-          Smith–Waterman Algorithm
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Algorithms/tanimoto_and_dice.html">
-          Tanimoto Coefficient and Dice Coefficient
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:physchem">
-
-
-<span class="md-tag">PhysChem</span><a class="headerlink" href="#tag:physchem" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputChem/gibbs_ORR.html">
-          Gibbs Free Energy Calculation for O₂ to H₂O₂ Reaction
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:preprocessing">
-
-
-<span class="md-tag">Preprocessing</span><a class="headerlink" href="#tag:preprocessing" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/Algorithms/orthogonal_signal_correction.html">
-          Orthogonal Signal Correction
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:programming">
-
-
-<span class="md-tag">Programming</span><a class="headerlink" href="#tag:programming" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="programming/python_parallel.html">
-          Parallel Computing Methods in Python
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:python">
-
-
-<span class="md-tag">Python</span><a class="headerlink" href="#tag:python" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="Cheminformatics/chem_py_lib.html">
-          Chemistry Python Library
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/pysisyphus.html">
-          Chemistry Python Library
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/conf_gen.html">
-          Conformer Generation Tools
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/Descriptor/KANO.html">
-          KANO
-        </a>
-      </li>
-    
-      <li>
-        <a href="programming/python_parallel.html">
-          Parallel Computing Methods in Python
-        </a>
-      </li>
-    
-      <li>
-        <a href="Cheminformatics/rdkit_gen.html">
-          RDKit Conformer Generation
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:rdkit">
-
-
-<span class="md-tag">RDKit</span><a class="headerlink" href="#tag:rdkit" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="Cheminformatics/rdkit_gen.html">
-          RDKit Conformer Generation
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:raid">
-
-
-<span class="md-tag">Raid</span><a class="headerlink" href="#tag:raid" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputSci/raid_workflow.html">
-          Langroup Server Raid1
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:transformer">
-
-
-<span class="md-tag">Transformer</span><a class="headerlink" href="#tag:transformer" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ML/LLM/causal_transformer.html">
-          Causal Transformer
-        </a>
-      </li>
-    
-      <li>
-        <a href="ML/LLM/sequence_packing.html">
-          Sequence Packing
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:ubuntu">
-
-
-<span class="md-tag">Ubuntu</span><a class="headerlink" href="#tag:ubuntu" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputSci/raid_workflow.html">
-          Langroup Server Raid1
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-  <h2 id="tag:web">
-
-
-<span class="md-tag">Web</span><a class="headerlink" href="#tag:web" title="Permanent link">&para;</a></h2>
-  <ul>
-    
-      <li>
-        <a href="ComputSci/python_web.html">
-          Python Web: Django vs Flask vs FastAPI
-        </a>
-      </li>
-    
-    
-  </ul>
-
-
-
-
-
-
-
+  <h1>RDKit Conformer Generation</h1>
+
+<p>RDKit provides several methods for generating 3D molecular conformations (conformers) from 2D or SMILES representations. These conformers represent different possible spatial arrangements of a molecule’s atoms that satisfy its bonding and geometric constraints.</p>
+<hr />
+<h2 id="1-overview">1. Overview<a class="headerlink" href="#1-overview" title="Permanent link">&para;</a></h2>
+<p>Conformer generation in RDKit involves <strong>embedding</strong> atoms in 3D space followed by <strong>geometry optimization</strong>.<br />
+The general workflow is:</p>
+<ol>
+<li>
+<p>Convert a molecule (e.g., from SMILES) to an RDKit <code>Mol</code> object.</p>
+</li>
+<li>
+<p>Use an embedding algorithm (e.g., <code>EmbedMolecule()</code> or <code>EmbedMultipleConfs()</code>) to generate one or more 3D conformers.</p>
+</li>
+<li>
+<p>Optionally refine the geometries using force-field minimization (<code>UFF</code>, <code>MMFF</code>).</p>
+</li>
+</ol>
+<hr />
+<h2 id="2-embedding-methods">2. Embedding Methods<a class="headerlink" href="#2-embedding-methods" title="Permanent link">&para;</a></h2>
+<h3 id="21-distance-geometry-dg">2.1 Distance Geometry (DG)<a class="headerlink" href="#21-distance-geometry-dg" title="Permanent link">&para;</a></h3>
+<p>The <strong>classical embedding</strong> in RDKit is based on <strong>distance geometry (DG)</strong>.<br />
+It constructs a <strong>distance bounds matrix</strong> based on atomic connectivity and stereochemical constraints, then <strong>embeds</strong> the molecule in 3D space by solving for coordinates consistent with these bounds.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">rdkit</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rdkit.Chem</span><span class="w"> </span><span class="kn">import</span> <span class="n">AllChem</span>
+
+<span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="s2">&quot;CCO&quot;</span><span class="p">)</span>
+<span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">AddHs</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+<span class="n">AllChem</span><span class="o">.</span><span class="n">EmbedMolecule</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>  <span class="c1"># Classical distance geometry</span>
+</code></pre></div>
+<p>While simple, classical DG embeddings can produce unrealistic conformations, especially for flexible or large molecules, because it doesn’t encode chemical knowledge such as torsional preferences or ring strain.</p>
+<hr />
+<h2 id="3-etkdg-method">3. ETKDG Method<a class="headerlink" href="#3-etkdg-method" title="Permanent link">&para;</a></h2>
+<h3 id="31-what-is-etkdg">3.1 What is ETKDG?<a class="headerlink" href="#31-what-is-etkdg" title="Permanent link">&para;</a></h3>
+<p><strong>ETKDG (Experimental-Torsion Knowledge Distance Geometry)</strong> is an improved algorithm that combines <strong>experimental torsional angle preferences</strong> and <strong>knowledge-based geometric constraints</strong> with distance geometry.<br />
+It was developed to produce more <strong>realistic, low-energy conformations</strong> that better match experimentally observed structures.</p>
+<h3 id="32-evolution-of-etkdg">3.2 Evolution of ETKDG<a class="headerlink" href="#32-evolution-of-etkdg" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ETDG</strong></td>
+<td>Adds <strong>experimental torsion-angle distributions</strong> to DG.</td>
+</tr>
+<tr>
+<td><strong>ETKDG</strong></td>
+<td>Further includes <strong>basic knowledge-based corrections</strong> (e.g., preferred ring conformations).</td>
+</tr>
+<tr>
+<td><strong>ETKDGv2</strong></td>
+<td>Improves ring sampling and reproduces crystallographic geometries more accurately.</td>
+</tr>
+<tr>
+<td><strong>ETKDGv3</strong></td>
+<td>Introduces refined covalent geometry parameters and enhanced distance constraints.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-usage-example">3.3 Usage Example<a class="headerlink" href="#33-usage-example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">rdkit</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rdkit.Chem</span><span class="w"> </span><span class="kn">import</span> <span class="n">AllChem</span>
+
+<span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="s2">&quot;CCO&quot;</span><span class="p">)</span>
+<span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">AddHs</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+
+<span class="c1"># Generate multiple ETKDG conformers</span>
+<span class="n">params</span> <span class="o">=</span> <span class="n">AllChem</span><span class="o">.</span><span class="n">ETKDGv3</span><span class="p">()</span>
+<span class="n">conf_ids</span> <span class="o">=</span> <span class="n">AllChem</span><span class="o">.</span><span class="n">EmbedMultipleConfs</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">numConfs</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="34-advantages">3.4 Advantages<a class="headerlink" href="#34-advantages" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Produces <strong>experimentally realistic</strong> conformations</p>
+</li>
+<li>
+<p>Captures <strong>torsional preferences</strong> and <strong>ring strain</strong></p>
+</li>
+<li>
+<p>More robust for <strong>flexible or macrocyclic</strong> molecules</p>
+</li>
+<li>
+<p>Can be combined with force-field minimization for further refinement</p>
+</li>
+</ul>
+<hr />
+<h2 id="4-force-field-optimization">4. Force Field Optimization<a class="headerlink" href="#4-force-field-optimization" title="Permanent link">&para;</a></h2>
+<p>After embedding, RDKit allows conformer refinement using <strong>molecular mechanics force fields</strong>:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">rdkit.Chem</span><span class="w"> </span><span class="kn">import</span> <span class="n">AllChem</span>
+
+<span class="k">for</span> <span class="n">conf_id</span> <span class="ow">in</span> <span class="n">conf_ids</span><span class="p">:</span>
+    <span class="n">AllChem</span><span class="o">.</span><span class="n">UFFOptimizeMoleculeConfs</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">confId</span><span class="o">=</span><span class="n">conf_id</span><span class="p">)</span>
+    <span class="c1"># or</span>
+    <span class="n">AllChem</span><span class="o">.</span><span class="n">MMFFOptimizeMoleculeConfs</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">confId</span><span class="o">=</span><span class="n">conf_id</span><span class="p">)</span>
+</code></pre></div>
+<p>Both <strong>UFF</strong> and <strong>MMFF94</strong> force fields are supported.<br />
+This step improves geometric consistency and helps identify the <strong>lowest-energy conformer</strong>.</p>
+<hr />
+<h2 id="5-summary">5. Summary<a class="headerlink" href="#5-summary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Key Feature</th>
+<th>Realism</th>
+<th>Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DG</strong></td>
+<td>Classical distance geometry</td>
+<td>Low</td>
+<td>Simple, fast generation</td>
+</tr>
+<tr>
+<td><strong>ETDG</strong></td>
+<td>Adds experimental torsions</td>
+<td>Medium</td>
+<td>Improved torsional accuracy</td>
+</tr>
+<tr>
+<td><strong>ETKDG</strong></td>
+<td>Combines torsions + knowledge-based constraints</td>
+<td>High</td>
+<td>Default for realistic conformers</td>
+</tr>
+<tr>
+<td><strong>ETKDGv3</strong></td>
+<td>Latest refinement with better covalent geometry</td>
+<td>Very High</td>
+<td>Best choice for general use</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Riniker, S.; Landrum, G. A. <em>J. Chem. Inf. Model.</em> <strong>2015</strong>, <em>55</em>(12), 2562–2574.<br />
+<em>Better Informed Distance Geometry: Using What We Know To Improve Conformation Generation.</em></p>
+</li>
+<li>
+<p>Wang, S.; Witek, J.; Landrum, G. A.; Riniker, S. <em>J. Chem. Inf. Model.</em> <strong>2020</strong>, <em>60</em>(4), 2044–2058.<br />
+<em>Improved Conformer Generation for Small Rings and Macrocycles.</em></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
 
 
 
@@ -2855,14 +2362,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "navigation.instant", "navigation.path", "navigation.sections", "navigation.indexes", "navigation.top", "content.tooltips", "search.suggest", "search.share", "content.code.annotate", "announce.dismiss"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "navigation.instant", "navigation.path", "navigation.sections", "navigation.indexes", "navigation.top", "content.tooltips", "search.suggest", "search.share", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/analytic.js"></script>
+        <script src="../../javascripts/analytic.js"></script>
       
-        <script src="../javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
